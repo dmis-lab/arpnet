@@ -19,7 +19,7 @@ To run our implementation code, we release the toy samples `\toy\train_1.tsv`, `
 * `patient_data.tsv` consists of demographic, neuroimaging biomarkers, genetic variants, and DNA methylation features.
 
 ## Run
-Download and unpack the NER datasets provided above (**[`Named Entity Recognition`](http://gofile.me/6pN25/avQHrfPRf)**). From now on, `$NER_DIR` indicates a folder for a single dataset which should include `train_dev.tsv`, `train.tsv`, `devel.tsv` and `test.tsv`. For example, `export NER_DIR=~/bioBERT/biodatasets/NERdata/NCBI-disease`. Following command runs fine-tuining code on NER with default arguments.
+Following command runs ARPNet code on toy samples with default parameters.
 ```
 python run.py \
     --task=1
