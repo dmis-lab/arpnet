@@ -2,13 +2,15 @@
 This repository provides implementation code of ARPNet, a Antidepressant Response Prediction Network for Major Depressive Disorder.
 
 ## Installation
-The implemntation code of ARPNet was tested with Python2.7.12 and TensorFlow1.6.0. 
 The experiments were conducted on a single TITAN Xp GPU machine which has 12GB of RAM.
+The implemntation code of ARPNet was tested with the following requirements:
+ and TensorFlow1.6.0.
+*   **[`Python2.7.12`](https://www.python.org/downloads/release/python-2712/)**
+*   **[`TensorFlow1.6.0`](https://www.tensorflow.org/install/)**
 
 ## Datasets
-We conducted experients on the data of 121 patients with MDD collected from Korea University Anam Hospital, Seoul, Korea. All the patients who are ethnically Korean were examined by trained psychiatrists using a structured clinical questionnaire. The depression severity of the patients was measured using the 17-item Hamilton Depression Rating(HAM-D17) scale and 21-item Hamilton Depression Rating (HAM-D 21) scale at every visit. We employ the HAM-D 17 scale for the predictions on the degree of the antidepressant response. The collected MDD patient data includes the demographic, genetic, and MRI information of only patients who have consented to the use of their data for this study. Some patients did not consent to the use of certain data, so the data available for each
-patient may vary. If one patient’s i-th feature is missing, we randomly choose one of the i-th features of all the remaining patients, and use it as the i-th feature of the patient. Specifically, 67, 71, 96, and 91 patients
-consented to the use of their demographic, MRI , and genetic information, respectively.
+We conducted experients on the data of 121 patients with MDD collected from Korea University Anam Hospital, Seoul, Korea. By several feature selection steps, we extracted some useful features, which are demographic, neuroimaging biomarkers, genetic variants, and DNA methylation features, for predicting antidepressant response from patient data. Because of the Korea University Anam Hospital's policies related to the patients' personal information, the data used in the experiment could not be released.
+
 
 ### Named Entity Recognition (NER)
 Download and unpack the NER datasets provided above (**[`Named Entity Recognition`](http://gofile.me/6pN25/avQHrfPRf)**). From now on, `$NER_DIR` indicates a folder for a single dataset which should include `train_dev.tsv`, `train.tsv`, `devel.tsv` and `test.tsv`. For example, `export NER_DIR=~/bioBERT/biodatasets/NERdata/NCBI-disease`. Following command runs fine-tuining code on NER with default arguments.
