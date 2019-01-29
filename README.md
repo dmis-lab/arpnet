@@ -1,4 +1,5 @@
 # ARPNet
+![model image](model_description.PNG)
 This repository provides implementation code of ARPNet, a Antidepressant Response Prediction Network for Major Depressive Disorder.
 
 ## Installation
