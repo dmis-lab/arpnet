@@ -22,7 +22,7 @@ To run our implementation code, we release the toy samples `\toy\train_1.tsv`, `
 Download and unpack the NER datasets provided above (**[`Named Entity Recognition`](http://gofile.me/6pN25/avQHrfPRf)**). From now on, `$NER_DIR` indicates a folder for a single dataset which should include `train_dev.tsv`, `train.tsv`, `devel.tsv` and `test.tsv`. For example, `export NER_DIR=~/bioBERT/biodatasets/NERdata/NCBI-disease`. Following command runs fine-tuining code on NER with default arguments.
 ```
 python run.py \
-    --task=1 \
+    --task=1
 ```
 You can change the task as you want. Once you perfrom task 2, you can use it in task mode by using `--task=2`
 
