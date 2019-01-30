@@ -5,7 +5,6 @@ This repository provides implementation code of ARPNet, a Antidepressant Respons
 ## Installation
 The experiments were conducted on a single TITAN Xp GPU machine which has 12GB of RAM.
 The implemntation code of ARPNet was tested with the following requirements:
- and TensorFlow1.6.0.
 *   **[`Python2.7.12`](https://www.python.org/downloads/release/python-2712/)**
 *   **[`TensorFlow1.6.0`](https://www.tensorflow.org/install/)**
 
