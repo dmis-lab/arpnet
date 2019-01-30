@@ -33,4 +33,4 @@ If we submit the paper to a conference or journal, we will update the BibTeX.
 ## Contact information
 
 For help or issues using ARPNet, please submit a GitHub issue. Please contact Buru Chang
-(`buru_chag (at) korea.ac.kr`), or Yonghwa Choi (`yonghwachoi (at) korea.ac.kr`) for communication related to BioBERT.
+(`buru_chag (at) korea.ac.kr`), or Yonghwa Choi (`yonghwachoi (at) korea.ac.kr`) for communication related to ARPNet.
